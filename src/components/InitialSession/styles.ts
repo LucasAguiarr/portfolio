@@ -17,6 +17,8 @@ export const BgWrapper = styled.div`
   width: 100%;
   height: 90vh;
 
+  overflow: hidden;
+
   img:nth-child(1) {
     height: 90vh;
     width: 100%;
@@ -42,24 +44,26 @@ export const BgWrapper = styled.div`
   img:nth-child(4) {
     height: 20vh;
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 60%;
     opacity: 0.1;
   }
 
   @media screen and (max-width: 1024px) {
     img:nth-child(2) {
       height: 65vh;
-      top: 10%;
-      left: 25%;
+      top: 15%;
+      left: 35%;
     }
 
     img:nth-child(3) {
-      height: 30vh;
+      height: 35vh;
     }
 
     img:nth-child(4) {
-      height: 20vh;
+      height: 30vh;
+      top: 55%;
+      left: 50%;
     }
   }
 
@@ -91,7 +95,7 @@ export const InfoWrapper = styled.div`
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  margin: 0 24px;
+  margin: 0 32px;
 
   h4 {
     padding: 6px 0 16px 0;

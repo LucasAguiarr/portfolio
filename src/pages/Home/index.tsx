@@ -1,3 +1,4 @@
+import { About } from "../../components/About";
 import { Header } from "../../components/Header";
 import { InitialSession } from "../../components/InitialSession";
 
@@ -6,6 +7,7 @@ export const Home = () => {
     <body>
       <Header />
       <InitialSession />
+      <About />
     </body>
   );
 };

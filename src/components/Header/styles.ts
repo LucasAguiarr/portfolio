@@ -11,7 +11,7 @@ export const Wrapper = styled.header`
 `;
 
 export const ContainerLogo = styled.div`
-  padding-left: 24px;
+  padding-left: 32px;
 
   img:nth-child(1) {
     height: 24px;

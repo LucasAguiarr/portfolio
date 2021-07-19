@@ -21,7 +21,7 @@ h5,
 h6,
 p,
 a {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Sen", sans-serif;
   color: ${colors.white};
   font-weight: 400;
 }

@@ -1,13 +1,30 @@
 import styled from "styled-components";
 import { colors } from "../../Tools/colors";
 
+interface IHeaderProps {
+  scrollNav: boolean;
+}
 export const Wrapper = styled.header`
+  position: fixed;
+  width: 100%;
+
+  z-index: 100;
+`;
+
+export const Nav = styled.nav`
   display: flex;
+  max-width: 1200px;
+  
   justify-content: space-between;
   align-items: center;
+  
   padding: 24px 0;
-  max-width: 1200px;
   margin: 0 auto;
+  
+  background-color: ${(props: IHeaderProps) =>
+    props.scrollNav ? colors.black800 : "transparent"};
+  
+  transition: 0.5s ease;
 `;
 
 export const ContainerLogo = styled.div`

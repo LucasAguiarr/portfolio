@@ -1,6 +1,6 @@
 export const colors = {
   black: "#222831",
-  black800: "#42474e",
+  black800: "#1A222D",
   black600: "#63666c",
   black400: "#838689",
   black200: "#a4a5a7",
@@ -22,4 +22,11 @@ export const colors = {
   white600: "#dddddd",
   white400: "#d5d5d5",
   white200: "#cccccc",
+
+  project: "#2C3544",
+
+  ts: "#2196F3",
+  react: "#8CD5EA",
+  react200: "#00D8FF",
+  nodejs: "#339933",
 };

@@ -13,7 +13,7 @@ export const Wrapper = styled.header`
 export const ContainerLogo = styled.div`
   padding-left: 32px;
 
-  img:nth-child(1) {
+  img {
     height: 24px;
     transition: 0.5s ease;
     &:hover {
@@ -21,10 +21,6 @@ export const ContainerLogo = styled.div`
       transform: scale(1.2);
     }
   }
-  img:nth-child(2) {
-    display: none;
-  }
-
   a {
     display: none;
   }
@@ -35,15 +31,6 @@ export const ContainerLogo = styled.div`
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-
-    img:nth-child(1) {
-      display: none;
-    }
-
-    img:nth-child(2) {
-      display: flex;
-      height: 40px;
-    }
 
     a {
       display: block;
@@ -82,7 +69,11 @@ export const ContainerMenuRight = styled.div`
       }
     }
   }
-
+  @media screen and (max-width: 1024px) {
+    a {
+      padding: 0 16px;
+    }
+  }
   @media screen and (max-width: 640px) {
     display: none;
   }

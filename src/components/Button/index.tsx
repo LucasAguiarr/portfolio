@@ -1,9 +1,13 @@
 import { Wrapper } from "./styles";
 
-export const Button = () => {
+interface IButtonProps {
+  label: string;
+  onClick?: () => void;
+}
+export const Button = ({label, onClick}:IButtonProps) => {
   return (
     <Wrapper>
-      <a href="/">Baixar currículo</a>
+      <button onClick={onClick}>{label}</button>
     </Wrapper>
   );
 };

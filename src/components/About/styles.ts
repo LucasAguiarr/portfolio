@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
   display: flex;
   position: relative;
   max-width: 1200px;
-  height: 90vh;
+  height: 100vh;
 
   margin: 0 auto;
   padding: 0 32px;
@@ -13,8 +13,13 @@ export const Wrapper = styled.section`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 1024px) {
     flex-direction: column;
+    margin: 16px 0;
+  }
+
+  @media screen and (max-width: 640px) {
+    height: 100%;
   }
 `;
 
@@ -23,18 +28,20 @@ export const BgWrapper = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   overflow: hidden;
 
   img:nth-child(1) {
     height: 100vh;
     position: absolute;
     opacity: 0.4;
+    filter: drop-shadow(10px -10px 10px #000000);
   }
 
   img:nth-child(2) {
     height: 100vh;
     position: absolute;
+    filter: blur(1px)
   }
 
   @media screen and (max-width: 640px) {
@@ -90,7 +97,6 @@ export const AboutWrapper = styled.div`
   flex: 4;
 
   margin-left: 128px;
-
   z-index: 1;
 
   h5 {
@@ -101,6 +107,10 @@ export const AboutWrapper = styled.div`
   h6 {
     color: ${colors.gray600};
     margin-bottom: 12px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin: 64px 12px 0 12px;
   }
 
   @media screen and (max-width: 640px) {

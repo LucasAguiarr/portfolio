@@ -89,6 +89,9 @@ export const Content = styled.div`
   margin: 0 auto;
 `;
 
+export const ButtonWrapper = styled.div`
+  width: 60%;
+`;
 export const InfoWrapper = styled.div`
   display: flex;
   width: 100%;

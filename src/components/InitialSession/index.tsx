@@ -4,6 +4,7 @@ import {
   BgWrapper,
   Content,
   InfoWrapper,
+  ButtonWrapper,
   ImageWrapper,
 } from "./styles";
 import bgCircle from "../../assets/images/bgCircle.svg";
@@ -34,7 +35,9 @@ export const InitialSession = () => {
             eum, delectus ab id et accusamus sed eos recusandae. In itaque
             doloribus nemo?
           </h6>
-          <Button />
+          <ButtonWrapper>
+            <Button label={"Baixar currículo"} />
+          </ButtonWrapper>
         </InfoWrapper>
         <ImageWrapper>
           <img src={profile} alt="profile" />

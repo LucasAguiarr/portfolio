@@ -1,6 +1,5 @@
 import { Wrapper, ContainerLogo, ContainerMenuRight } from "./styles";
-import husky from "../../assets/images/husky.png";
-import logo from "../../assets/images/logo.png";
+import elements from "../../assets/images/elements.png";
 
 import { IoIosMenu } from "react-icons/io";
 import { colors } from "../../Tools/colors";
@@ -9,9 +8,7 @@ export const Header = () => {
   return (
     <Wrapper>
       <ContainerLogo>
-        <img src={husky} alt="Logo" />
-        <img src={logo} alt="Logo" />
-
+        <img src={elements} alt="Logo" />
         <a href="/">
           <IoIosMenu color={colors.black200} size={40} />
         </a>

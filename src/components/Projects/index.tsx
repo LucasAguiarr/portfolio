@@ -9,22 +9,21 @@ export const Projects = () => {
   return (
     <Wrapper>
       <Header>
-        <BiCheckboxSquare size={30} color={colors.cyan} />
-        <h4>Projetos</h4>
+        <BiCheckboxSquare
+          id="animation-project"
+          size={30}
+          color={colors.cyan}
+        />
+        <h4 id="animation-project">Projetos</h4>
       </Header>
-      <ProjectsWrapper>
+      <ProjectsWrapper id="animation-project">
         <ProjectCard
           title={"App - Elas"}
           subtitle={
             "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
           }
           projectPath={nuBankBanner}
-          tags={[
-            "typescript",
-            "react-native",
-            "expo",
-            "styled-components",
-          ]}
+          tags={["typescript", "react-native", "expo", "styled-components"]}
           onClick={() => {}}
         />
         <ProjectCard
@@ -33,12 +32,7 @@ export const Projects = () => {
             "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
           }
           projectPath={nuBankBanner}
-          tags={[
-            "typescript",
-            "react-native",
-            "expo",
-            "styled-components",
-          ]}
+          tags={["typescript", "react-native", "expo", "styled-components"]}
           onClick={() => {}}
         />
         <ProjectCard
@@ -47,12 +41,7 @@ export const Projects = () => {
             "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
           }
           projectPath={nuBankBanner}
-          tags={[
-            "typescript",
-            "styled-components",
-            "expo",
-            "react-native",
-          ]}
+          tags={["typescript", "styled-components", "expo", "react-native"]}
           onClick={() => {
             window.location.href = "https://github.com/LucasAguiarr/elas-app";
           }}

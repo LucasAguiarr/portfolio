@@ -11,15 +11,21 @@ export const Contact = () => {
   return (
     <Wrapper>
       <Header>
-        <BiCheckboxSquare size={30} color={colors.cyan} />
-        <h4>Contato</h4>
+        <BiCheckboxSquare
+          id="animation-contact"
+          size={30}
+          color={colors.cyan}
+        />
+        <h4 id="animation-contact">Contato</h4>
       </Header>
 
-      <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h6>
-      <h6>Lorem ipsum, dolor sit amet.</h6>
+      <h6 id="animation-contact">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </h6>
+      <h6 id="animation-contact">Lorem ipsum, dolor sit amet.</h6>
 
       <ContactCardWrapper>
-        <div>
+        <div id="animation-contact">
           <ContactCard
             title={"(48) 9 9811 1249"}
             icon={<FaWhatsapp size={30} color={colors.cyan} />}
@@ -32,7 +38,7 @@ export const Contact = () => {
           />
         </div>
 
-        <div>
+        <div id="animation-contact">
           <ContactCard
             title={"LucasAguiarr"}
             icon={<AiOutlineGithub size={30} color={colors.cyan} />}

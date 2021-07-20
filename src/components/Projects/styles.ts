@@ -27,6 +27,9 @@ export const Header = styled.div`
 
 export const ProjectsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 64px;
 
   @media screen and (max-width: 1024px) {

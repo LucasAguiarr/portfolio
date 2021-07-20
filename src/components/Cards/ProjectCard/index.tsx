@@ -7,6 +7,7 @@ interface ISkillCardProps {
   projectPath: string;
   tags: string[];
   onClick?: () => void;
+  id?: string;
 }
 
 export const ProjectCard = ({
@@ -14,7 +15,7 @@ export const ProjectCard = ({
   subtitle,
   projectPath,
   tags,
-  onClick
+  onClick,
 }: ISkillCardProps) => {
   return (
     <Wrapper>

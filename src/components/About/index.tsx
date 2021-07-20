@@ -20,22 +20,22 @@ export const About = () => {
   return (
     <Wrapper>
       <BgWrapper>
-        <img src={cityTwo} alt="background-circle" />
-        <img src={cityOne} alt="background-circle" />
+        <img id="animation-about" src={cityTwo} alt="background-circle" />
+        <img id="animation-about" src={cityOne} alt="background-circle" />
       </BgWrapper>
       <ProfileIconWrapper>
         <ProfileICon>
-          <img src={profile} alt="profile" />
+          <img id="animation-about" src={profile} alt="profile" />
         </ProfileICon>
         <UserName>Lucas Aguiar</UserName>
         <SocialIconsWrapper>
-          <a href="/">
+          <a id="animation-about" href="/">
             <AiOutlineLinkedin size={30} color={colors.cyan} />
           </a>
-          <a href="/">
+          <a id="animation-about" href="/">
             <AiFillGithub size={30} color={colors.cyan} />
           </a>
-          <a href="/">
+          <a id="animation-about" href="/">
             <HiOutlineMail size={30} color={colors.cyan} />
           </a>
         </SocialIconsWrapper>
@@ -43,21 +43,25 @@ export const About = () => {
 
       <AboutWrapper>
         <Header>
-          <BiCheckboxSquare size={30} color={colors.cyan} />
-          <h4>Sobre</h4>
+          <BiCheckboxSquare
+            id="animation-about"
+            size={30}
+            color={colors.cyan}
+          />
+          <h4 id='animation-about'>Sobre</h4>
         </Header>
-        <h5>Conheça um pouco sobre mim</h5>
-        <h6>
+        <h5 id="animation-about">Conheça um pouco sobre mim</h5>
+        <h6 id="animation-about">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
           laborum consequatur nostrum placeat, eos, error molestias labore,
           corporis facilis temporibus. Nobis mollitia maiores, quae autem
           voluptate cupiditate exercitationem beatae.
         </h6>
-        <h6>
+        <h6 id="animation-about">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
           laborum consequatur nostrum placeat, eos, error molestias labore.
         </h6>
-        <h6>
+        <h6 id="animation-about">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
           laborum consequatur nostrum placeat, eos, error molestias labore.
         </h6>

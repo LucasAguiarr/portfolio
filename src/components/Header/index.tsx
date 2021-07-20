@@ -1,10 +1,9 @@
+import { useState, useEffect } from "react";
 import { Wrapper, Nav, ContainerLogo, ContainerMenuRight } from "./styles";
 import elements from "../../assets/images/elements.png";
 
 import { IoIosMenu } from "react-icons/io";
 import { colors } from "../../Tools/colors";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export const Header = () => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -23,17 +22,17 @@ export const Header = () => {
   return (
     <Wrapper>
       <Nav scrollNav={scrollNav}>
-        <ContainerLogo>
+        <ContainerLogo id='animation-nav'>
           <img src={elements} alt="Logo" />
           <a href="/">
             <IoIosMenu color={colors.black200} size={40} />
           </a>
         </ContainerLogo>
         <ContainerMenuRight>
-          <a href="/">About</a>
-          <a href="/">Skills</a>
-          <a href="/">projects</a>
-          <a href="/">Contact</a>
+          <a id='animation-nav' href="/">About</a>
+          <a id='animation-nav' href="/">Skills</a>
+          <a id='animation-nav' href="/">projects</a>
+          <a id='animation-nav' href="/">Contact</a>
         </ContainerMenuRight>
       </Nav>
     </Wrapper>

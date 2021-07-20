@@ -19,28 +19,28 @@ export const InitialSession = () => {
     <Wrapper>
       <Relative>
         <BgWrapper>
-          <img src={bgCircle} alt="background-circle" />
-          <img src={bgTriangleLarge} alt="background-circle" />
-          <img src={bgTriangleMedium} alt="background-circle" />
-          <img src={bgTriangleSmall} alt="background-circle" />
+          <img id="animation-initialState" src={bgCircle} alt="background-circle" />
+          <img id="animation-initialState" src={bgTriangleLarge} alt="background-circle" />
+          <img id="animation-initialState"src={bgTriangleMedium} alt="background-circle" />
+          <img id="animation-initialState" src={bgTriangleSmall} alt="background-circle" />
         </BgWrapper>
       </Relative>
       <Content>
         <InfoWrapper>
-          <h6>Desenvolverdor Full-Stack</h6>
-          <h4>Lucas Aguiar</h4>
-          <h6>
+          <h6 id="animation-initialState">Desenvolverdor Full-Stack</h6>
+          <h4 id="animation-initialState">Lucas Aguiar</h4>
+          <h6 id="animation-initialState">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repudiandae, deserunt labore ipsa libero saepe iste corrupti eaque
             eum, delectus ab id et accusamus sed eos recusandae. In itaque
             doloribus nemo?
           </h6>
           <ButtonWrapper>
-            <Button label={"Baixar currículo"} />
+            <Button id="animation-initialState" label={"Baixar currículo"} />
           </ButtonWrapper>
         </InfoWrapper>
         <ImageWrapper>
-          <img src={profile} alt="profile" />
+          <img id="animation-initialState" src={profile} alt="profile" />
         </ImageWrapper>
       </Content>
     </Wrapper>

@@ -10,27 +10,31 @@ import nodejsIcon from "../../assets/images/nodejs.png";
 export const Skills = () => {
   return (
     <Wrapper>
-      <Header>
+      <Header id='animation-skill'>
         <BiCheckboxSquare size={30} color={colors.cyan} />
-        <h4>Skills</h4>
+        <h4 id='animation-skill'>Skills</h4>
       </Header>
       <SkillsIconsWrapper>
         <SkillCard
+          id='animation-skill'
           title={"react-native"}
           skillPath={reactIcon}
           barBottomColor={colors.react}
         />
         <SkillCard
+          id='animation-skill'
           title={"ts"}
           skillPath={tsIcon}
           barBottomColor={colors.ts}
         />
         <SkillCard
+        id='animation-skill'
           title={"react"}
           skillPath={reactIcon2}
           barBottomColor={colors.react200}
         />
         <SkillCard
+        id='animation-skill'
           title={"node-js"}
           skillPath={nodejsIcon}
           barBottomColor={colors.nodejs}

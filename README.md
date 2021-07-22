@@ -21,6 +21,3 @@
 ---
 
 Made with ♥ by Lucas Aguiar :wave: [Get in touch!](https://www.linkedin.com/in/lucasaguiiar)
-https://www.udemy.com/course/curso-react-native/
-https://www.udemy.com/course/curso-web/
-https://www.udemy.com/course/api-restful-de-vendas/

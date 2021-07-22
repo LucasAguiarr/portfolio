@@ -24,8 +24,6 @@ export const ProjectCard = ({
       <Subtitle>{subtitle}</Subtitle>
       <TagWrapper>
         {tags?.map((tag) => {
-          console.log(tag);
-
           return <TagText>{tag}</TagText>;
         })}
       </TagWrapper>

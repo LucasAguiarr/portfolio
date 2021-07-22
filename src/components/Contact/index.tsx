@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { colors } from "../../Tools/colors";
 import { ContactCard } from "../Cards/ContactCard";
+import { nav } from "../../Tools/socialMediaNavigation";
 
 export const Contact = () => {
   return (
@@ -42,12 +43,12 @@ export const Contact = () => {
           <ContactCard
             title={"LucasAguiarr"}
             icon={<AiOutlineGithub size={30} color={colors.cyan} />}
-            onClick={() => {}}
+            onClick={() => nav("https://github.com/LucasAguiarr")}
           />
           <ContactCard
             title={"lucasaguiiar"}
             icon={<RiLinkedinBoxLine size={30} color={colors.cyan} />}
-            onClick={() => {}}
+            onClick={() => nav("https://www.linkedin.com/in/lucasaguiiar")}
           />
         </div>
       </ContactCardWrapper>

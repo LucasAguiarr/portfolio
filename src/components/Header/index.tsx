@@ -29,10 +29,10 @@ export const Header = () => {
           </a>
         </ContainerLogo>
         <ContainerMenuRight>
-          <a id='animation-nav' href="/">About</a>
-          <a id='animation-nav' href="/">Skills</a>
-          <a id='animation-nav' href="/">projects</a>
-          <a id='animation-nav' href="/">Contact</a>
+          <a id='animation-nav' href="/">Sobre</a>
+          <a id='animation-nav' href="/">Habilidades</a>
+          <a id='animation-nav' href="/">Projetos</a>
+          <a id='animation-nav' href="/">Conntato</a>
         </ContainerMenuRight>
       </Nav>
     </Wrapper>

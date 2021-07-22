@@ -8,7 +8,7 @@ interface ISkillCardProps {
 
 export const ContactCard = ({ title, icon, onClick }: ISkillCardProps) => {
   return (
-    <Wrapper>
+    <Wrapper onClick={onClick}>
       {icon}
       <Title>{title}</Title>
     </Wrapper>

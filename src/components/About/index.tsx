@@ -15,6 +15,7 @@ import { colors } from "../../Tools/colors";
 import profile from "../../assets/images/profile2.jpg";
 import cityOne from "../../assets/images/cityOne.svg";
 import cityTwo from "../../assets/images/cityTwo.svg";
+import { nav } from "../../Tools/socialMediaNavigation";
 
 export const About = () => {
   return (
@@ -29,13 +30,22 @@ export const About = () => {
         </ProfileICon>
         <UserName>Lucas Aguiar</UserName>
         <SocialIconsWrapper>
-          <a id="animation-about" href="/">
+          <a
+            id="animation-about"
+            onClick={() => nav("https://www.linkedin.com/in/lucasaguiiar")}
+          >
             <AiOutlineLinkedin size={30} color={colors.cyan} />
           </a>
-          <a id="animation-about" href="/">
+          <a
+            id="animation-about"
+            onClick={() => nav("https://github.com/LucasAguiarr")}
+          >
             <AiFillGithub size={30} color={colors.cyan} />
           </a>
-          <a id="animation-about" href="/">
+          <a
+            id="animation-about"
+            // onClick={() => nav("https://github.com/LucasAguiarr")}
+          >
             <HiOutlineMail size={30} color={colors.cyan} />
           </a>
         </SocialIconsWrapper>
@@ -48,22 +58,36 @@ export const About = () => {
             size={30}
             color={colors.cyan}
           />
-          <h4 id='animation-about'>Sobre</h4>
+          <h4 id="animation-about">Sobre</h4>
         </Header>
         <h5 id="animation-about">Conheça um pouco sobre mim</h5>
         <h6 id="animation-about">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
-          laborum consequatur nostrum placeat, eos, error molestias labore,
-          corporis facilis temporibus. Nobis mollitia maiores, quae autem
-          voluptate cupiditate exercitationem beatae.
+          Estou me graduando de Análise e desenvolvimento de sistema pelo
+          CESUSC. Constantemente antenado à novas tendências tecnológicas,
+          qualquer tempo livre tenho o prazer de desenvolver projetos paralelos
+          para aprimorar minhas habilidades.
         </h6>
         <h6 id="animation-about">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
-          laborum consequatur nostrum placeat, eos, error molestias labore.
+          Para aprimorar minhas habilidades fiz projetos NLW da{" "}
+          <a href="https://rocketseat.com.br/">Rocketseat</a>(react,
+          react-native), na <a href="https://www.udemy.com/pt/">udemy</a>
+          acabei fazendo os cursos:{" "}
+          <a href="https://www.udemy.com/course/curso-web/">
+            web moderno
+          </a>,{" "}
+          <a href="https://www.udemy.com/course/curso-react-native/">
+            react-native
+          </a>{" "}
+          e
+          <a href="https://www.udemy.com/course/api-restful-de-vendas/">
+            nodejs
+          </a>
+          (typescript com typeorm).
         </h6>
         <h6 id="animation-about">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo
-          laborum consequatur nostrum placeat, eos, error molestias labore.
+          Nesse período atuando como desenvolvedor, já participei de quatro
+          aplicativos junto a empresa que trabalho os quais me geraram muito
+          conhecimento.
         </h6>
       </AboutWrapper>
     </Wrapper>

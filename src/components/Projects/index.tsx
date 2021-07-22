@@ -4,6 +4,7 @@ import { colors } from "../../Tools/colors";
 import { ProjectCard } from "../Cards/ProjectCard";
 
 import nuBankBanner from "../../assets/images/nubank.jpg";
+import { nav } from "../../Tools/socialMediaNavigation";
 
 export const Projects = () => {
   return (
@@ -24,7 +25,9 @@ export const Projects = () => {
           }
           projectPath={nuBankBanner}
           tags={["typescript", "react-native", "expo", "styled-components"]}
-          onClick={() => {}}
+          onClick={() => {
+            nav("https://github.com/LucasAguiarr/elas-app");
+          }}
         />
         <ProjectCard
           title={"App - Elas"}
@@ -33,7 +36,9 @@ export const Projects = () => {
           }
           projectPath={nuBankBanner}
           tags={["typescript", "react-native", "expo", "styled-components"]}
-          onClick={() => {}}
+          onClick={() => {
+            nav("https://github.com/LucasAguiarr/elas-app");
+          }}
         />
         <ProjectCard
           title={"App - Elas"}
@@ -43,7 +48,7 @@ export const Projects = () => {
           projectPath={nuBankBanner}
           tags={["typescript", "styled-components", "expo", "react-native"]}
           onClick={() => {
-            window.location.href = "https://github.com/LucasAguiarr/elas-app";
+            nav("https://github.com/LucasAguiarr/elas-app");
           }}
         />
       </ProjectsWrapper>

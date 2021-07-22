@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { colors } from "../../../Tools/colors";
 
 interface ISkillCardProps {
   barBottomColor: string;
+  progressBar: number;
 }
 
 export const Wrapper = styled.div`
@@ -11,7 +12,6 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 32px 32px;
-  transition: 0.5s ease;
 
   img {
     width: 60px;
@@ -19,25 +19,30 @@ export const Wrapper = styled.div`
     margin-bottom: 12px;
     object-fit: contain;
   }
-
-  &::after {
-    content: "";
-    width: 100%;
-    height: 4px;
-
-    background-color: ${(props: ISkillCardProps) => props.barBottomColor};
-    border-radius: 12px;
-
-    transition: 0.4s ease;
-  }
-
   &:hover {
     h6 {
-      transition: 0.6s ease;
       color: ${colors.white};
     }
-    &::after {
-      width: 0%;
+    div {
+      &::before {
+        width: 100%;
+        animation: 2.5s 1 tf-spin;
+      }
+    }
+  }
+
+  @keyframes tf-spin {
+    0% {
+      transform: scale(1) rotateY(180deg);
+    }
+    33% {
+      transform: scale(0.5) rotateY(180deg);
+    }
+    66% {
+      transform: scale(0.5) rotateY(0);
+    }
+    100% {
+      transform: scale(1) rotateY(0deg);
     }
   }
 
@@ -55,4 +60,19 @@ export const Title = styled.h6`
   text-transform: uppercase;
 
   transition: 0.5s ease;
+`;
+
+export const ProgressBar = styled.div`
+  display: flex;
+  width: 100%;
+  height: 10px;
+  background-color: ${colors.black800};
+  border-radius: 12px;
+
+  &::before {
+    content: "";
+    width: ${(props: ISkillCardProps) => `${props.progressBar}%`};
+    border-radius: 12px;
+    background-color: ${(props: ISkillCardProps) => props.barBottomColor};
+  }
 `;

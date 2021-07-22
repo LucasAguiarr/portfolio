@@ -41,7 +41,7 @@ export const BgWrapper = styled.div`
   img:nth-child(2) {
     height: 100vh;
     position: absolute;
-    filter: blur(1px)
+    filter: blur(1px);
   }
 
   @media screen and (max-width: 640px) {
@@ -89,6 +89,10 @@ export const UserName = styled.h5`
 export const SocialIconsWrapper = styled.div`
   display: flex;
   gap: 12px;
+
+  a {
+    cursor: pointer;
+  }
 `;
 
 export const AboutWrapper = styled.div`

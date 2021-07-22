@@ -8,7 +8,7 @@ interface IButtonProps {
 export const Button = ({label, onClick, id}:IButtonProps) => {
   return (
     <Wrapper id={id}>
-      <button  onClick={onClick}>{label}</button>
+      <button onClick={onClick}>{label}</button>
     </Wrapper>
   );
 };

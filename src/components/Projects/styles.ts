@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { colors } from "../../Tools/colors";
 
 export const Wrapper = styled.section`
   display: flex;

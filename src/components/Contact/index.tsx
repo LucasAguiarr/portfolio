@@ -20,10 +20,7 @@ export const Contact = () => {
         <h4 id="animation-contact">Contato</h4>
       </Header>
 
-      <h6 id="animation-contact">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      </h6>
-      <h6 id="animation-contact">Lorem ipsum, dolor sit amet.</h6>
+      <h6 id="animation-contact">Para mais informações entrar em contato.</h6>
 
       <ContactCardWrapper>
         <div id="animation-contact">

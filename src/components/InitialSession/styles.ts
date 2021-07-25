@@ -31,14 +31,51 @@ export const BgWrapper = styled.div`
     top: 15%;
     left: 40%;
     opacity: 0.1;
-  }
 
+    animation: rotate 3s linear infinite;
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      50% {
+        transform: rotate(4deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  }
   img:nth-child(3) {
     height: 40vh;
     position: absolute;
     top: 40%;
     left: 15%;
     opacity: 0.1;
+
+    animation: rotate2 3s linear infinite;
+    @keyframes rotate2 {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(-4deg);
+      }
+
+      50% {
+        transform: rotate(0deg);
+      }
+
+      75% {
+        transform: rotate(4deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
   }
 
   img:nth-child(4) {
@@ -47,6 +84,21 @@ export const BgWrapper = styled.div`
     top: 60%;
     left: 60%;
     opacity: 0.1;
+
+    animation: rotate3 3s linear infinite;
+    @keyframes rotate3 {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      50% {
+        transform: rotate(-8deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
   }
 
   @media screen and (max-width: 1024px) {

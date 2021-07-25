@@ -62,25 +62,25 @@ export const About = () => {
         </Header>
         <h5 id="animation-about">Conheça um pouco sobre mim</h5>
         <h6 id="animation-about">
-          Estou me graduando de Análise e desenvolvimento de sistema pelo
-          CESUSC. Constantemente antenado à novas tendências tecnológicas,
-          qualquer tempo livre tenho o prazer de desenvolver projetos paralelos
-          para aprimorar minhas habilidades.
+          Sou graduando de Análise e desenvolvimento de sistema pelo CESUSC.
+          Constantemente antenado à novas tendências tecnológicas, qualquer
+          tempo livre tenho o prazer de desenvolver projetos paralelos para
+          aprimorar minhas habilidades.
         </h6>
         <h6 id="animation-about">
-          Para aprimorar minhas habilidades fiz projetos NLW da{" "}
-          <a href="https://rocketseat.com.br/">Rocketseat</a>(react,
-          react-native), na <a href="https://www.udemy.com/pt/">udemy</a>
-          acabei fazendo os cursos:{" "}
+          Projetos: participei de duas NLW da{" "}
+          <a href="https://rocketseat.com.br/">Rocketseat</a> (react,
+          react-native), na <a href="https://www.udemy.com/pt/">udemy </a>
+          acabei fazendo os cursos sobre{" "}
           <a href="https://www.udemy.com/course/curso-web/">
             web moderno
           </a>,{" "}
           <a href="https://www.udemy.com/course/curso-react-native/">
-            react-native
-          </a>{" "}
-          e
+            react-native{" "}
+          </a>
+          e{" "}
           <a href="https://www.udemy.com/course/api-restful-de-vendas/">
-            nodejs
+            nodejs{" "}
           </a>
           (typescript com typeorm).
         </h6>

@@ -3,7 +3,11 @@ import { BiCheckboxSquare } from "react-icons/bi";
 import { colors } from "../../Tools/colors";
 import { ProjectCard } from "../Cards/ProjectCard";
 
-import nuBankBanner from "../../assets/images/nubank.jpg";
+import elas from "../../assets/images/elas.png";
+import letmeask from "../../assets/images/letmeask.svg";
+import plantmanager from "../../assets/images/plantmanager.png";
+
+
 import { nav } from "../../Tools/socialMediaNavigation";
 
 export const Projects = () => {
@@ -19,36 +23,36 @@ export const Projects = () => {
       </Header>
       <ProjectsWrapper id="animation-project">
         <ProjectCard
-          title={"App - Elas"}
+          title={"Elas"}
           subtitle={
-            "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
+            "Projeto de alerta para vítimas de abuso"
           }
-          projectPath={nuBankBanner}
+          projectPath={elas}
           tags={["typescript", "react-native", "expo", "styled-components"]}
           onClick={() => {
-            nav("https://github.com/LucasAguiarr/elas-app");
+            nav("https://github.com/LucasAguiarr/elas-expo");
           }}
         />
         <ProjectCard
-          title={"App - Elas"}
+          title={"Plantmanager"}
           subtitle={
-            "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
+            "Projeto de notificações para regar as plantas"
           }
-          projectPath={nuBankBanner}
+          projectPath={plantmanager}
           tags={["typescript", "react-native", "expo", "styled-components"]}
           onClick={() => {
-            nav("https://github.com/LucasAguiarr/elas-app");
+            nav("https://github.com/LucasAguiarr/plantmanager");
           }}
         />
         <ProjectCard
-          title={"App - Elas"}
+          title={"Letmeask"}
           subtitle={
-            "lorem ipsum dolor sit amet, consectetur, lorem ipsum dolor sit amet, consectetur"
+            "Projeto para criacao de salas para perguntas e respostas"
           }
-          projectPath={nuBankBanner}
-          tags={["typescript", "styled-components", "expo", "react-native"]}
+          projectPath={letmeask}
+          tags={["typescript", "sass", "react"]}
           onClick={() => {
-            nav("https://github.com/LucasAguiarr/elas-app");
+            nav("https://github.com/LucasAguiarr/letmeask");
           }}
         />
       </ProjectsWrapper>

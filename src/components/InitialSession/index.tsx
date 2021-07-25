@@ -46,7 +46,7 @@ export const InitialSession = () => {
           <h6 id="animation-initialState">Desenvolverdor Full-Stack</h6>
           <h4 id="animation-initialState">Lucas Aguiar</h4>
           <h6 id="animation-initialState">
-            Atuo na área de desenvolvimento a ano, com o foco principal na área
+            Atuo na área de desenvolvimento a um ano, com o foco principal na área
             mobile. Adoro construir experiências que melhoram e facilitam a vida
             cotidiana dos usuários.
           </h6>

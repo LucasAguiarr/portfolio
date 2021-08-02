@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src='src/assets/images/elements.png' alt="Logo elements">
   <br />
-  Portifólio
+  Portfolio
 </h1>
 
 <h4 align="center">This is my portfolio site inspired by the layout made by <a href="https://dribbble.com/laviniamelo">Lavinia Melo</a>.</h2>
